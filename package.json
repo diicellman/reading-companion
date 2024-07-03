@@ -1,0 +1,37 @@
+{
+  "name": "reading-companion",
+  "version": "1.0.0",
+  "description": "from karpathy's tweet reading companion",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "watch": "webpack --watch --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "assert": "^2.1.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "https-browserify": "^1.0.0",
+    "memfs": "^4.9.3",
+    "node-polyfill-webpack-plugin": "^4.0.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.3",
+    "util": "^0.12.5",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@xenova/transformers": "^2.17.2",
+    "langchain": "^0.2.6",
+    "pdf-parse": "^1.1.1",
+    "pdfjs-dist": "^4.3.136"
+  }
+}

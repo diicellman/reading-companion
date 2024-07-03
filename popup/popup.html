@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF QA Extension</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PDF QA</h1>
+        <div id="pdfStatus" class="status">Checking for PDF...</div>
+        <button id="extractBtn" class="btn" disabled>Extract PDF</button>
+        <div id="loadingIndicator" class="loading hidden">Processing...</div>
+        <div id="questionSection" class="hidden">
+            <input type="text" id="questionInput" placeholder="Ask a question about the PDF">
+            <button id="askBtn" class="btn">Ask</button>
+        </div>
+        <div id="answerSection" class="hidden">
+            <h2>Answer:</h2>
+            <div id="answerText"></div>
+        </div>
+        <a href="#" id="optionsLink">Settings</a>
+    </div>
+    <script src="../dist/popup.js"></script>
+</body>
+</html>
